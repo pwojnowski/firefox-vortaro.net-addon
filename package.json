@@ -1,9 +1,9 @@
 {
   "name": "vortaro_net",
-  "title": "vortaro_net",
+  "title": "Serĉu en Vortaro.net",
   "id": "jid1-i9B9kdSFvp8zmg",
-  "description": "Serĉi vorton en vortaro.net",
+  "description": "Serĉu vorton en vortaro.net",
   "author": "Przemysław Wojnowski",
   "license": "MIT",
-  "version": "0.2"
+  "version": "0.3"
 }
