@@ -7,15 +7,17 @@ function firstWord(text) {
 // Remove -n and -j and present verbs as infinitives
 // (replacing -as/is/os with -i).
 function normalize(text) {
-    if (text.endsWith("n") && text !== "kun") {
-        text = text.substring(0, text.length-1);
-    }
-    if (text.endsWith("j")) {
-        text = text.substring(0, text.length-1);
-    }
-    if (text.endsWith("as") || text.endsWith("is") || text.endsWith("os")) {
+    if (text.endsWith("as") || text.endsWith("os")
+        || (text.endsWith("is") && text !== "ĝis")) {
         text = text.substring(0, text.length-2) + "i";
-    };
+    } else {
+        if (text.endsWith("n") && text !== "kun") {
+            text = text.substring(0, text.length-1);
+        }
+        if (text.endsWith("j") && text !== "kaj" && text !== "tuj") {
+            text = text.substring(0, text.length-1);
+        }
+    }
     return text;
 }
 
