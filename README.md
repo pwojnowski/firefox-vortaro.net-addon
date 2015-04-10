@@ -10,9 +10,9 @@ difino de la vorto.
 # Kiel instali
 1. Elŝutu la dosieron [vortaro_net.xpi](https://github.com/pwojnowski/firefox-vortaro.net-addon/raw/master/vortaro_net.xpi)
 2. Eku Fajrovulpon tiel: *firefox vortaro_net.xpi*
-3. Konfirmu
+3. Akceptu
 
 # Kiel kontribui
-1. Ĉiam bonvenigas GH pull-request
+1. Ĉiam bonvenigas GH tir-petojn (_pull-requests_)
 2. Ne hezitu uzi "*Issues*" por ideoj, komentoj ktp!
 3. Se nenio funkcias skribu al esperanto ĉe cumego punkto com.
