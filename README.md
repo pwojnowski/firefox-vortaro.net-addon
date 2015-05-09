@@ -1,6 +1,8 @@
 # Fajrovulpo aldonaĵo
 Serĉas montritan vorton en vortaro.net
 
+*Aktuala versio: 0.3*
+
 # Kiel uzi
 Post instalado iru al iu paĝaro, marku vorton aŭ tekston kaj klaku dekstran
 butonon sur la muso por ekvoki menuo. Tien vi troviĝos *Difinu 'montrita-vorto'*.
